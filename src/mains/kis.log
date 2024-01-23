@@ -1,0 +1,309 @@
+[01-18:17:14:47:INFO:kis:_load_datasets:228] args info used to load dataset:
+[01-18:17:14:47:INFO:kis:_load_datasets:229] *******************************************************************
+[01-18:17:14:47:INFO:kis:print_args_info:256] path: json
+[01-18:17:14:47:INFO:kis:print_args_info:257] name: None
+[01-18:17:14:47:INFO:kis:print_args_info:258] data_dir: /Users/proc/work/datasets/datasets_from_huggingface/codeparrot-clean/train
+[01-18:17:14:47:INFO:kis:print_args_info:259] data_files: None
+[01-18:17:14:47:INFO:kis:print_args_info:260] split: None
+[01-18:17:14:47:INFO:kis:print_args_info:261] cache_dir: None
+[01-18:17:14:47:INFO:kis:print_args_info:262] features: None
+[01-18:17:14:47:INFO:kis:print_args_info:263] download_config: None
+[01-18:17:14:47:INFO:kis:print_args_info:264] download_mode: None
+[01-18:17:14:47:INFO:kis:print_args_info:265] verfication_mode: None
+[01-18:17:14:47:INFO:kis:print_args_info:266] ignore_verifications: deprecated
+[01-18:17:14:47:INFO:kis:print_args_info:267] keep_in_memory: None
+[01-18:17:14:47:INFO:kis:print_args_info:268] save_infos: False
+[01-18:17:14:47:INFO:kis:print_args_info:269] revision: None
+[01-18:17:14:47:INFO:kis:print_args_info:270] token: None
+[01-18:17:14:47:INFO:kis:print_args_info:271] use_auth_token: deprecated
+[01-18:17:14:47:INFO:kis:print_args_info:272] task: deprecated
+[01-18:17:14:47:INFO:kis:print_args_info:273] streaming: True
+[01-18:17:14:47:INFO:kis:print_args_info:274] num_proc: None
+[01-18:17:14:47:INFO:kis:print_args_info:275] storage_options: None
+[01-18:17:14:47:INFO:kis:_load_datasets:231] ===================================================================
+[01-18:17:14:48:INFO:kis:_load_datasets:252] Type of the returned KisDataSet: <class 'datasets.dataset_dict.IterableDatasetDict'>
+[01-18:17:14:48:INFO:kis:_load_datasets:253] splits in the dataset: dict_keys(['train'])
+[01-18:17:14:48:INFO:kis:_load_datasets:228] args info used to load dataset:
+[01-18:17:14:48:INFO:kis:_load_datasets:229] *******************************************************************
+[01-18:17:14:48:INFO:kis:print_args_info:256] path: json
+[01-18:17:14:48:INFO:kis:print_args_info:257] name: None
+[01-18:17:14:48:INFO:kis:print_args_info:258] data_dir: /Users/proc/work/datasets/datasets_from_huggingface/codeparrot-clean/valid
+[01-18:17:14:48:INFO:kis:print_args_info:259] data_files: None
+[01-18:17:14:48:INFO:kis:print_args_info:260] split: None
+[01-18:17:14:48:INFO:kis:print_args_info:261] cache_dir: None
+[01-18:17:14:48:INFO:kis:print_args_info:262] features: None
+[01-18:17:14:48:INFO:kis:print_args_info:263] download_config: None
+[01-18:17:14:48:INFO:kis:print_args_info:264] download_mode: None
+[01-18:17:14:48:INFO:kis:print_args_info:265] verfication_mode: None
+[01-18:17:14:48:INFO:kis:print_args_info:266] ignore_verifications: deprecated
+[01-18:17:14:48:INFO:kis:print_args_info:267] keep_in_memory: None
+[01-18:17:14:48:INFO:kis:print_args_info:268] save_infos: False
+[01-18:17:14:48:INFO:kis:print_args_info:269] revision: None
+[01-18:17:14:48:INFO:kis:print_args_info:270] token: None
+[01-18:17:14:48:INFO:kis:print_args_info:271] use_auth_token: deprecated
+[01-18:17:14:48:INFO:kis:print_args_info:272] task: deprecated
+[01-18:17:14:48:INFO:kis:print_args_info:273] streaming: False
+[01-18:17:14:48:INFO:kis:print_args_info:274] num_proc: None
+[01-18:17:14:48:INFO:kis:print_args_info:275] storage_options: None
+[01-18:17:14:48:INFO:kis:_load_datasets:231] ===================================================================
+[01-18:17:14:48:INFO:kis:_load_datasets:252] Type of the returned KisDataSet: <class 'datasets.dataset_dict.DatasetDict'>
+[01-18:17:14:48:INFO:kis:_load_datasets:253] splits in the dataset: dict_keys(['train'])
+[01-18:17:14:50:INFO:kis:_set_split_iterator:154] Epoch No: 1
+[01-18:17:14:50:INFO:kis:_set_split_iterator:156] Set the iterator with split: 'train'
+[01-18:17:14:50:INFO:kis:_set_split_iterator:158] split 'train' has been set as iterator.
+[01-18:17:14:50:INFO:kis:<module>:132] batches read: 0
+[01-18:17:14:50:INFO:kis:_next_batch:189] Number of batch read: 1000
+[01-18:17:14:50:INFO:kis:<module>:132] batches read: 1000
+[01-18:17:14:51:INFO:kis:_next_batch:189] Number of batch read: 2000
+[01-18:17:14:51:INFO:kis:<module>:132] batches read: 2000
+[01-18:17:14:51:INFO:kis:_next_batch:189] Number of batch read: 3000
+[01-18:17:14:51:INFO:kis:<module>:132] batches read: 3000
+[01-18:17:14:51:INFO:kis:_next_batch:189] Number of batch read: 4000
+[01-18:17:14:51:INFO:kis:<module>:132] batches read: 4000
+[01-18:17:14:52:INFO:kis:_next_batch:189] Number of batch read: 5000
+[01-18:17:14:52:INFO:kis:<module>:132] batches read: 5000
+[01-18:17:14:52:INFO:kis:_next_batch:189] Number of batch read: 6000
+[01-18:17:14:52:INFO:kis:<module>:132] batches read: 6000
+[01-18:17:14:52:INFO:kis:_next_batch:189] Number of batch read: 7000
+[01-18:17:14:52:INFO:kis:<module>:132] batches read: 7000
+[01-18:17:14:53:INFO:kis:_next_batch:189] Number of batch read: 8000
+[01-18:17:14:53:INFO:kis:<module>:132] batches read: 8000
+[01-18:17:14:53:INFO:kis:_next_batch:189] Number of batch read: 9000
+[01-18:17:14:53:INFO:kis:<module>:132] batches read: 9000
+[01-18:17:14:53:INFO:kis:_next_batch:189] Number of batch read: 10000
+[01-18:17:14:53:INFO:kis:<module>:132] batches read: 10000
+[01-18:17:14:53:INFO:kis:_next_batch:189] Number of batch read: 11000
+[01-18:17:14:53:INFO:kis:<module>:132] batches read: 11000
+[01-18:17:14:54:INFO:kis:_next_batch:189] Number of batch read: 12000
+[01-18:17:14:54:INFO:kis:<module>:132] batches read: 12000
+[01-18:17:14:54:INFO:kis:_next_batch:189] Number of batch read: 13000
+[01-18:17:14:54:INFO:kis:<module>:132] batches read: 13000
+[01-18:17:14:54:INFO:kis:_next_batch:189] Number of batch read: 14000
+[01-18:17:14:54:INFO:kis:<module>:132] batches read: 14000
+[01-18:17:14:55:INFO:kis:_next_batch:189] Number of batch read: 15000
+[01-18:17:14:55:INFO:kis:<module>:132] batches read: 15000
+[01-18:17:14:55:INFO:kis:_next_batch:189] Number of batch read: 16000
+[01-18:17:14:55:INFO:kis:<module>:132] batches read: 16000
+[01-18:17:14:55:INFO:kis:_next_batch:189] Number of batch read: 17000
+[01-18:17:14:55:INFO:kis:<module>:132] batches read: 17000
+[01-18:17:14:56:INFO:kis:_next_batch:189] Number of batch read: 18000
+[01-18:17:14:56:INFO:kis:<module>:132] batches read: 18000
+[01-18:17:14:56:INFO:kis:_next_batch:189] Number of batch read: 19000
+[01-18:17:14:56:INFO:kis:<module>:132] batches read: 19000
+[01-18:17:14:56:INFO:kis:_next_batch:189] Number of batch read: 20000
+[01-18:17:14:56:INFO:kis:<module>:132] batches read: 20000
+[01-18:17:14:56:INFO:kis:_next_batch:189] Number of batch read: 21000
+[01-18:17:14:56:INFO:kis:<module>:132] batches read: 21000
+[01-18:17:14:57:INFO:kis:_next_batch:189] Number of batch read: 22000
+[01-18:17:14:57:INFO:kis:<module>:132] batches read: 22000
+[01-18:17:14:57:INFO:kis:_next_batch:189] Number of batch read: 23000
+[01-18:17:14:57:INFO:kis:<module>:132] batches read: 23000
+[01-18:17:14:57:INFO:kis:_next_batch:189] Number of batch read: 24000
+[01-18:17:14:57:INFO:kis:<module>:132] batches read: 24000
+[01-18:17:14:58:INFO:kis:_next_batch:189] Number of batch read: 25000
+[01-18:17:14:58:INFO:kis:<module>:132] batches read: 25000
+[01-18:17:14:58:INFO:kis:_next_batch:189] Number of batch read: 26000
+[01-18:17:14:58:INFO:kis:<module>:132] batches read: 26000
+[01-18:17:14:58:INFO:kis:_next_batch:189] Number of batch read: 27000
+[01-18:17:14:58:INFO:kis:<module>:132] batches read: 27000
+[01-18:17:14:58:INFO:kis:_next_batch:189] Number of batch read: 28000
+[01-18:17:14:58:INFO:kis:<module>:132] batches read: 28000
+[01-18:17:14:59:INFO:kis:_next_batch:189] Number of batch read: 29000
+[01-18:17:14:59:INFO:kis:<module>:132] batches read: 29000
+[01-18:17:14:59:INFO:kis:_next_batch:189] Number of batch read: 30000
+[01-18:17:14:59:INFO:kis:<module>:132] batches read: 30000
+[01-18:17:14:59:INFO:kis:_next_batch:189] Number of batch read: 31000
+[01-18:17:14:59:INFO:kis:<module>:132] batches read: 31000
+[01-18:17:15:00:INFO:kis:_next_batch:189] Number of batch read: 32000
+[01-18:17:15:00:INFO:kis:<module>:132] batches read: 32000
+[01-18:17:15:00:INFO:kis:_next_batch:189] Number of batch read: 33000
+[01-18:17:15:00:INFO:kis:<module>:132] batches read: 33000
+[01-18:17:15:00:INFO:kis:_next_batch:189] Number of batch read: 34000
+[01-18:17:15:00:INFO:kis:<module>:132] batches read: 34000
+[01-18:17:15:00:INFO:kis:_next_batch:189] Number of batch read: 35000
+[01-18:17:15:00:INFO:kis:<module>:132] batches read: 35000
+[01-18:17:15:01:INFO:kis:_next_batch:189] Number of batch read: 36000
+[01-18:17:15:01:INFO:kis:<module>:132] batches read: 36000
+[01-18:17:15:01:INFO:kis:_next_batch:189] Number of batch read: 37000
+[01-18:17:15:01:INFO:kis:<module>:132] batches read: 37000
+[01-18:17:15:01:INFO:kis:_next_batch:189] Number of batch read: 38000
+[01-18:17:15:01:INFO:kis:<module>:132] batches read: 38000
+[01-18:17:15:02:INFO:kis:_next_batch:189] Number of batch read: 39000
+[01-18:17:15:02:INFO:kis:<module>:132] batches read: 39000
+[01-18:17:15:02:INFO:kis:_next_batch:189] Number of batch read: 40000
+[01-18:17:15:02:INFO:kis:<module>:132] batches read: 40000
+[01-18:17:15:02:INFO:kis:_next_batch:189] Number of batch read: 41000
+[01-18:17:15:02:INFO:kis:<module>:132] batches read: 41000
+[01-18:17:15:03:INFO:kis:_next_batch:189] Number of batch read: 42000
+[01-18:17:15:03:INFO:kis:<module>:132] batches read: 42000
+[01-18:17:15:03:INFO:kis:_next_batch:189] Number of batch read: 43000
+[01-18:17:15:03:INFO:kis:<module>:132] batches read: 43000
+[01-18:17:15:03:INFO:kis:_next_batch:189] Number of batch read: 44000
+[01-18:17:15:03:INFO:kis:<module>:132] batches read: 44000
+[01-18:17:15:03:INFO:kis:_next_batch:189] Number of batch read: 45000
+[01-18:17:15:03:INFO:kis:<module>:132] batches read: 45000
+[01-18:17:15:04:INFO:kis:_next_batch:189] Number of batch read: 46000
+[01-18:17:15:04:INFO:kis:<module>:132] batches read: 46000
+[01-18:17:15:04:INFO:kis:_next_batch:189] Number of batch read: 47000
+[01-18:17:15:04:INFO:kis:<module>:132] batches read: 47000
+[01-18:17:15:04:INFO:kis:_next_batch:189] Number of batch read: 48000
+[01-18:17:15:04:INFO:kis:<module>:132] batches read: 48000
+[01-18:17:15:05:INFO:kis:_next_batch:189] Number of batch read: 49000
+[01-18:17:15:05:INFO:kis:<module>:132] batches read: 49000
+[01-18:17:15:05:INFO:kis:_next_batch:189] Number of batch read: 50000
+[01-18:17:15:05:INFO:kis:<module>:132] batches read: 50000
+[01-18:17:15:05:INFO:kis:_next_batch:189] Number of batch read: 51000
+[01-18:17:15:05:INFO:kis:<module>:132] batches read: 51000
+[01-18:17:15:05:INFO:kis:_next_batch:189] Number of batch read: 52000
+[01-18:17:15:05:INFO:kis:<module>:132] batches read: 52000
+[01-18:17:15:06:INFO:kis:_next_batch:189] Number of batch read: 53000
+[01-18:17:15:06:INFO:kis:<module>:132] batches read: 53000
+[01-18:17:15:06:INFO:kis:_next_batch:189] Number of batch read: 54000
+[01-18:17:15:06:INFO:kis:<module>:132] batches read: 54000
+[01-18:17:15:06:INFO:kis:_next_batch:189] Number of batch read: 55000
+[01-18:17:15:06:INFO:kis:<module>:132] batches read: 55000
+[01-18:17:15:07:INFO:kis:_next_batch:189] Number of batch read: 56000
+[01-18:17:15:07:INFO:kis:<module>:132] batches read: 56000
+[01-18:17:15:07:INFO:kis:_next_batch:189] Number of batch read: 57000
+[01-18:17:15:07:INFO:kis:<module>:132] batches read: 57000
+[01-18:17:15:07:INFO:kis:_next_batch:189] Number of batch read: 58000
+[01-18:17:15:07:INFO:kis:<module>:132] batches read: 58000
+[01-18:17:15:08:INFO:kis:_next_batch:189] Number of batch read: 59000
+[01-18:17:15:08:INFO:kis:<module>:132] batches read: 59000
+[01-18:17:15:08:INFO:kis:_next_batch:189] Number of batch read: 60000
+[01-18:17:15:08:INFO:kis:<module>:132] batches read: 60000
+[01-18:17:15:08:INFO:kis:_next_batch:189] Number of batch read: 61000
+[01-18:17:15:08:INFO:kis:<module>:132] batches read: 61000
+[01-18:17:15:08:INFO:kis:_next_batch:189] Number of batch read: 62000
+[01-18:17:15:08:INFO:kis:<module>:132] batches read: 62000
+[01-18:17:15:09:INFO:kis:_next_batch:189] Number of batch read: 63000
+[01-18:17:15:09:INFO:kis:<module>:132] batches read: 63000
+[01-18:17:15:09:INFO:kis:_next_batch:189] Number of batch read: 64000
+[01-18:17:15:09:INFO:kis:<module>:132] batches read: 64000
+[01-18:17:15:09:INFO:kis:_next_batch:189] Number of batch read: 65000
+[01-18:17:15:09:INFO:kis:<module>:132] batches read: 65000
+[01-18:17:15:10:INFO:kis:_next_batch:189] Number of batch read: 66000
+[01-18:17:15:10:INFO:kis:<module>:132] batches read: 66000
+[01-18:17:15:10:INFO:kis:_next_batch:189] Number of batch read: 67000
+[01-18:17:15:10:INFO:kis:<module>:132] batches read: 67000
+[01-18:17:15:10:INFO:kis:_next_batch:189] Number of batch read: 68000
+[01-18:17:15:10:INFO:kis:<module>:132] batches read: 68000
+[01-18:17:15:11:INFO:kis:_next_batch:189] Number of batch read: 69000
+[01-18:17:15:11:INFO:kis:<module>:132] batches read: 69000
+[01-18:17:15:11:INFO:kis:_next_batch:189] Number of batch read: 70000
+[01-18:17:15:11:INFO:kis:<module>:132] batches read: 70000
+[01-18:17:15:11:INFO:kis:_next_batch:189] Number of batch read: 71000
+[01-18:17:15:11:INFO:kis:<module>:132] batches read: 71000
+[01-18:17:15:11:INFO:kis:_next_batch:189] Number of batch read: 72000
+[01-18:17:15:11:INFO:kis:<module>:132] batches read: 72000
+[01-18:17:15:12:INFO:kis:_next_batch:189] Number of batch read: 73000
+[01-18:17:15:12:INFO:kis:<module>:132] batches read: 73000
+[01-18:17:15:12:INFO:kis:_next_batch:189] Number of batch read: 74000
+[01-18:17:15:12:INFO:kis:<module>:132] batches read: 74000
+[01-18:17:15:12:INFO:kis:_next_batch:189] Number of batch read: 75000
+[01-18:17:15:12:INFO:kis:<module>:132] batches read: 75000
+[01-18:17:15:13:INFO:kis:_next_batch:189] Number of batch read: 76000
+[01-18:17:15:13:INFO:kis:<module>:132] batches read: 76000
+[01-18:17:15:13:INFO:kis:_next_batch:189] Number of batch read: 77000
+[01-18:17:15:13:INFO:kis:<module>:132] batches read: 77000
+[01-18:17:15:13:INFO:kis:_next_batch:189] Number of batch read: 78000
+[01-18:17:15:13:INFO:kis:<module>:132] batches read: 78000
+[01-18:17:15:14:INFO:kis:_next_batch:189] Number of batch read: 79000
+[01-18:17:15:14:INFO:kis:<module>:132] batches read: 79000
+[01-18:17:15:14:INFO:kis:_next_batch:189] Number of batch read: 80000
+[01-18:17:15:14:INFO:kis:<module>:132] batches read: 80000
+[01-18:17:15:14:INFO:kis:_next_batch:189] Number of batch read: 81000
+[01-18:17:15:14:INFO:kis:<module>:132] batches read: 81000
+[01-18:17:15:14:INFO:kis:_next_batch:189] Number of batch read: 82000
+[01-18:17:15:14:INFO:kis:<module>:132] batches read: 82000
+[01-18:17:15:15:INFO:kis:_next_batch:189] Number of batch read: 83000
+[01-18:17:15:15:INFO:kis:<module>:132] batches read: 83000
+[01-18:17:15:15:INFO:kis:_next_batch:189] Number of batch read: 84000
+[01-18:17:15:15:INFO:kis:<module>:132] batches read: 84000
+[01-18:17:15:15:INFO:kis:_next_batch:189] Number of batch read: 85000
+[01-18:17:15:15:INFO:kis:<module>:132] batches read: 85000
+[01-18:17:15:16:INFO:kis:_next_batch:189] Number of batch read: 86000
+[01-18:17:15:16:INFO:kis:<module>:132] batches read: 86000
+[01-18:17:15:16:INFO:kis:_next_batch:189] Number of batch read: 87000
+[01-18:17:15:16:INFO:kis:<module>:132] batches read: 87000
+[01-18:17:15:16:INFO:kis:_next_batch:189] Number of batch read: 88000
+[01-18:17:15:16:INFO:kis:<module>:132] batches read: 88000
+[01-18:17:15:17:INFO:kis:_next_batch:189] Number of batch read: 89000
+[01-18:17:15:17:INFO:kis:<module>:132] batches read: 89000
+[01-18:17:15:17:INFO:kis:_next_batch:189] Number of batch read: 90000
+[01-18:17:15:17:INFO:kis:<module>:132] batches read: 90000
+[01-18:17:15:17:INFO:kis:_next_batch:189] Number of batch read: 91000
+[01-18:17:15:17:INFO:kis:<module>:132] batches read: 91000
+[01-18:17:15:17:INFO:kis:_next_batch:189] Number of batch read: 92000
+[01-18:17:15:17:INFO:kis:<module>:132] batches read: 92000
+[01-18:17:15:18:INFO:kis:_next_batch:189] Number of batch read: 93000
+[01-18:17:15:18:INFO:kis:<module>:132] batches read: 93000
+[01-18:17:15:18:INFO:kis:_next_batch:189] Number of batch read: 94000
+[01-18:17:15:18:INFO:kis:<module>:132] batches read: 94000
+[01-18:17:15:18:INFO:kis:_next_batch:189] Number of batch read: 95000
+[01-18:17:15:18:INFO:kis:<module>:132] batches read: 95000
+[01-18:17:15:19:INFO:kis:_next_batch:189] Number of batch read: 96000
+[01-18:17:15:19:INFO:kis:<module>:132] batches read: 96000
+[01-18:17:15:19:INFO:kis:_next_batch:189] Number of batch read: 97000
+[01-18:17:15:19:INFO:kis:<module>:132] batches read: 97000
+[01-18:17:15:19:INFO:kis:_next_batch:189] Number of batch read: 98000
+[01-18:17:15:19:INFO:kis:<module>:132] batches read: 98000
+[01-18:17:15:19:INFO:kis:_next_batch:189] Number of batch read: 99000
+[01-18:17:15:19:INFO:kis:<module>:132] batches read: 99000
+[01-18:17:15:20:INFO:kis:_next_batch:189] Number of batch read: 100000
+[01-18:17:15:20:INFO:kis:<module>:132] batches read: 100000
+[01-18:17:15:20:INFO:kis:_next_batch:189] Number of batch read: 101000
+[01-18:17:15:20:INFO:kis:<module>:132] batches read: 101000
+[01-18:17:15:20:INFO:kis:_next_batch:189] Number of batch read: 102000
+[01-18:17:15:20:INFO:kis:<module>:132] batches read: 102000
+[01-18:17:15:21:INFO:kis:_next_batch:189] Number of batch read: 103000
+[01-18:17:15:21:INFO:kis:<module>:132] batches read: 103000
+[01-18:17:15:21:INFO:kis:_next_batch:189] Number of batch read: 104000
+[01-18:17:15:21:INFO:kis:<module>:132] batches read: 104000
+[01-18:17:15:21:INFO:kis:_next_batch:189] Number of batch read: 105000
+[01-18:17:15:21:INFO:kis:<module>:132] batches read: 105000
+[01-18:17:15:22:INFO:kis:_next_batch:189] Number of batch read: 106000
+[01-18:17:15:22:INFO:kis:<module>:132] batches read: 106000
+[01-18:17:15:22:INFO:kis:_next_batch:189] Number of batch read: 107000
+[01-18:17:15:22:INFO:kis:<module>:132] batches read: 107000
+[01-18:17:15:22:INFO:kis:_next_batch:189] Number of batch read: 108000
+[01-18:17:15:22:INFO:kis:<module>:132] batches read: 108000
+[01-18:17:15:23:INFO:kis:_next_batch:189] Number of batch read: 109000
+[01-18:17:15:23:INFO:kis:<module>:132] batches read: 109000
+[01-18:17:15:23:INFO:kis:_next_batch:189] Number of batch read: 110000
+[01-18:17:15:23:INFO:kis:<module>:132] batches read: 110000
+[01-18:17:15:23:INFO:kis:_next_batch:189] Number of batch read: 111000
+[01-18:17:15:23:INFO:kis:<module>:132] batches read: 111000
+[01-18:17:15:23:INFO:kis:_next_batch:189] Number of batch read: 112000
+[01-18:17:15:23:INFO:kis:<module>:132] batches read: 112000
+[01-18:17:15:24:INFO:kis:_next_batch:189] Number of batch read: 113000
+[01-18:17:15:24:INFO:kis:<module>:132] batches read: 113000
+[01-18:17:15:24:INFO:kis:_next_batch:189] Number of batch read: 114000
+[01-18:17:15:24:INFO:kis:<module>:132] batches read: 114000
+[01-18:17:15:24:INFO:kis:_next_batch:189] Number of batch read: 115000
+[01-18:17:15:24:INFO:kis:<module>:132] batches read: 115000
+[01-18:17:15:25:INFO:kis:_next_batch:189] Number of batch read: 116000
+[01-18:17:15:25:INFO:kis:<module>:132] batches read: 116000
+[01-18:17:15:25:INFO:kis:_next_batch:189] Number of batch read: 117000
+[01-18:17:15:25:INFO:kis:<module>:132] batches read: 117000
+[01-18:17:15:25:INFO:kis:_next_batch:189] Number of batch read: 118000
+[01-18:17:15:25:INFO:kis:<module>:132] batches read: 118000
+[01-18:17:15:25:INFO:kis:_next_batch:189] Number of batch read: 119000
+[01-18:17:15:26:INFO:kis:<module>:132] batches read: 119000
+[01-18:17:15:26:INFO:kis:_next_batch:189] Number of batch read: 120000
+[01-18:17:15:26:INFO:kis:<module>:132] batches read: 120000
+[01-18:17:15:26:INFO:kis:_next_batch:189] Number of batch read: 121000
+[01-18:17:15:26:INFO:kis:<module>:132] batches read: 121000
+[01-18:17:15:26:INFO:kis:_next_batch:189] Number of batch read: 122000
+[01-18:17:15:26:INFO:kis:<module>:132] batches read: 122000
+[01-18:17:15:27:INFO:kis:_next_batch:189] Number of batch read: 123000
+[01-18:17:15:27:INFO:kis:<module>:132] batches read: 123000
+[01-18:17:15:27:INFO:kis:_next_batch:189] Number of batch read: 124000
+[01-18:17:15:27:INFO:kis:<module>:132] batches read: 124000
+[01-18:17:15:27:INFO:kis:_next_batch:189] Number of batch read: 125000
+[01-18:17:15:27:WARNING:kis:_next_sample:197] Reach the end of the iterator. Start a new iteration.
+[01-18:17:15:27:INFO:kis:_next_sample:198] Reset the iterator with split: 'train'
+[01-18:17:15:27:INFO:kis:_set_split_iterator:154] Epoch No: 2
+[01-18:17:15:27:INFO:kis:_set_split_iterator:158] split 'train' has been set as iterator.
+[01-18:17:15:27:INFO:kis:<module>:132] batches read: 125000
+[01-18:17:15:27:INFO:kis:split_to_generator:150] Total number of batch read: 125001
