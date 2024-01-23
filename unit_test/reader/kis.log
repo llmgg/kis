@@ -1,0 +1,228 @@
+[01-12:16:47:12:INFO:kis:_load_datasets:175] args info used to load dataset:
+[01-12:16:47:12:INFO:kis:_load_datasets:176] *******************************************************************
+[01-12:16:47:12:INFO:kis:print_args_info:192] path: json
+[01-12:16:47:12:INFO:kis:print_args_info:193] name: None
+[01-12:16:47:12:INFO:kis:print_args_info:194] data_dir: ../data/json/
+[01-12:16:47:12:INFO:kis:print_args_info:195] data_files: None
+[01-12:16:47:12:INFO:kis:print_args_info:196] split: train
+[01-12:16:47:12:INFO:kis:print_args_info:197] cache_dir: None
+[01-12:16:47:12:INFO:kis:print_args_info:198] features: None
+[01-12:16:47:12:INFO:kis:print_args_info:199] download_config: None
+[01-12:16:47:12:INFO:kis:print_args_info:200] download_mode: None
+[01-12:16:47:12:INFO:kis:print_args_info:201] verfication_mode: None
+[01-12:16:47:12:INFO:kis:print_args_info:202] ignore_verifications: deprecated
+[01-12:16:47:12:INFO:kis:print_args_info:203] keep_in_memory: None
+[01-12:16:47:12:INFO:kis:print_args_info:204] save_infos: False
+[01-12:16:47:12:INFO:kis:print_args_info:205] revision: None
+[01-12:16:47:12:INFO:kis:print_args_info:206] token: None
+[01-12:16:47:12:INFO:kis:print_args_info:207] use_auth_token: deprecated
+[01-12:16:47:12:INFO:kis:print_args_info:208] task: deprecated
+[01-12:16:47:12:INFO:kis:print_args_info:209] streaming: True
+[01-12:16:47:12:INFO:kis:print_args_info:210] num_proc: None
+[01-12:16:47:12:INFO:kis:print_args_info:211] storage_options: None
+[01-12:16:47:12:INFO:kis:_load_datasets:178] ===================================================================
+[01-12:16:47:14:INFO:kis:_load_datasets:187] Type of the returned KisDataSet: <class 'datasets.iterable_dataset.IterableDataset'>
+[01-12:16:47:14:INFO:kis:set_split_iterator:92] Set the iterator with split: 'train'
+[01-12:16:47:14:INFO:kis:set_split_iterator:98] The dataset has been set as iterator.
+[01-12:16:47:14:INFO:kis:set_split_iterator:107] Epoch: 1
+[01-12:16:47:14:WARNING:kis:next_sample:137] Reach the end of the iterator.
+[01-12:16:47:14:INFO:kis:next_sample:138] Reset the iterator with split: 'train'
+[01-12:16:47:14:INFO:kis:set_split_iterator:98] The dataset has been set as iterator.
+[01-12:16:47:14:INFO:kis:set_split_iterator:107] Epoch: 2
+[01-12:16:47:14:INFO:kis:_load_datasets:175] args info used to load dataset:
+[01-12:16:47:14:INFO:kis:_load_datasets:176] *******************************************************************
+[01-12:16:47:14:INFO:kis:print_args_info:192] path: json
+[01-12:16:47:14:INFO:kis:print_args_info:193] name: None
+[01-12:16:47:14:INFO:kis:print_args_info:194] data_dir: None
+[01-12:16:47:14:INFO:kis:print_args_info:195] data_files: {'train': '../data/json/dataset_1.json', 'test': '../data/json/dataset_2.json'}
+[01-12:16:47:14:INFO:kis:print_args_info:196] split: None
+[01-12:16:47:14:INFO:kis:print_args_info:197] cache_dir: None
+[01-12:16:47:14:INFO:kis:print_args_info:198] features: None
+[01-12:16:47:14:INFO:kis:print_args_info:199] download_config: None
+[01-12:16:47:14:INFO:kis:print_args_info:200] download_mode: None
+[01-12:16:47:14:INFO:kis:print_args_info:201] verfication_mode: None
+[01-12:16:47:14:INFO:kis:print_args_info:202] ignore_verifications: deprecated
+[01-12:16:47:14:INFO:kis:print_args_info:203] keep_in_memory: None
+[01-12:16:47:14:INFO:kis:print_args_info:204] save_infos: False
+[01-12:16:47:14:INFO:kis:print_args_info:205] revision: None
+[01-12:16:47:14:INFO:kis:print_args_info:206] token: None
+[01-12:16:47:14:INFO:kis:print_args_info:207] use_auth_token: deprecated
+[01-12:16:47:14:INFO:kis:print_args_info:208] task: deprecated
+[01-12:16:47:14:INFO:kis:print_args_info:209] streaming: True
+[01-12:16:47:14:INFO:kis:print_args_info:210] num_proc: None
+[01-12:16:47:14:INFO:kis:print_args_info:211] storage_options: None
+[01-12:16:47:14:INFO:kis:_load_datasets:178] ===================================================================
+[01-12:16:47:15:INFO:kis:_load_datasets:187] Type of the returned KisDataSet: <class 'datasets.dataset_dict.IterableDatasetDict'>
+[01-12:16:47:15:INFO:kis:_load_datasets:189] splits in the dataset: dict_keys(['train', 'test'])
+[01-12:16:47:15:INFO:kis:set_split_iterator:92] Set the iterator with split: 'test'
+[01-12:16:47:15:INFO:kis:set_split_iterator:95] split 'test' has been set as iterator.
+[01-12:16:47:15:INFO:kis:set_split_iterator:107] Epoch: 3
+[01-12:16:47:15:WARNING:kis:next_sample:137] Reach the end of the iterator.
+[01-12:16:47:15:INFO:kis:next_sample:138] Reset the iterator with split: 'test'
+[01-12:16:47:15:INFO:kis:set_split_iterator:95] split 'test' has been set as iterator.
+[01-12:16:47:15:INFO:kis:set_split_iterator:107] Epoch: 4
+[01-12:16:47:15:WARNING:kis:next_sample:137] Reach the end of the iterator.
+[01-12:16:47:15:INFO:kis:next_sample:138] Reset the iterator with split: 'test'
+[01-12:16:47:15:INFO:kis:set_split_iterator:95] split 'test' has been set as iterator.
+[01-12:16:47:15:INFO:kis:set_split_iterator:107] Epoch: 5
+[01-12:16:47:15:INFO:kis:set_split_iterator:92] Set the iterator with split: 'train'
+[01-12:16:47:15:INFO:kis:set_split_iterator:95] split 'train' has been set as iterator.
+[01-12:16:47:15:INFO:kis:set_split_iterator:107] Epoch: 6
+[01-12:16:47:15:WARNING:kis:next_sample:137] Reach the end of the iterator.
+[01-12:16:47:15:INFO:kis:next_sample:138] Reset the iterator with split: 'train'
+[01-12:16:47:15:INFO:kis:set_split_iterator:95] split 'train' has been set as iterator.
+[01-12:16:47:15:INFO:kis:set_split_iterator:107] Epoch: 7
+[01-12:16:47:15:INFO:kis:set_split_iterator:95] split 'train' has been set as iterator.
+[01-12:16:47:15:INFO:kis:set_split_iterator:107] Epoch: 8
+[01-12:16:47:15:WARNING:kis:next_sample:137] Reach the end of the iterator.
+[01-12:16:47:15:INFO:kis:next_sample:138] Reset the iterator with split: 'train'
+[01-12:16:47:15:INFO:kis:set_split_iterator:95] split 'train' has been set as iterator.
+[01-12:16:47:15:INFO:kis:set_split_iterator:107] Epoch: 9
+[01-12:16:47:15:INFO:kis:_load_datasets:175] args info used to load dataset:
+[01-12:16:47:15:INFO:kis:_load_datasets:176] *******************************************************************
+[01-12:16:47:15:INFO:kis:print_args_info:192] path: json
+[01-12:16:47:15:INFO:kis:print_args_info:193] name: None
+[01-12:16:47:15:INFO:kis:print_args_info:194] data_dir: None
+[01-12:16:47:15:INFO:kis:print_args_info:195] data_files: {'train': '../data/json/dataset_1.json', 'test': '../data/json/dataset_2.json'}
+[01-12:16:47:15:INFO:kis:print_args_info:196] split: None
+[01-12:16:47:15:INFO:kis:print_args_info:197] cache_dir: None
+[01-12:16:47:15:INFO:kis:print_args_info:198] features: None
+[01-12:16:47:15:INFO:kis:print_args_info:199] download_config: None
+[01-12:16:47:15:INFO:kis:print_args_info:200] download_mode: None
+[01-12:16:47:15:INFO:kis:print_args_info:201] verfication_mode: None
+[01-12:16:47:15:INFO:kis:print_args_info:202] ignore_verifications: deprecated
+[01-12:16:47:15:INFO:kis:print_args_info:203] keep_in_memory: None
+[01-12:16:47:15:INFO:kis:print_args_info:204] save_infos: False
+[01-12:16:47:15:INFO:kis:print_args_info:205] revision: None
+[01-12:16:47:15:INFO:kis:print_args_info:206] token: None
+[01-12:16:47:15:INFO:kis:print_args_info:207] use_auth_token: deprecated
+[01-12:16:47:15:INFO:kis:print_args_info:208] task: deprecated
+[01-12:16:47:15:INFO:kis:print_args_info:209] streaming: True
+[01-12:16:47:15:INFO:kis:print_args_info:210] num_proc: None
+[01-12:16:47:15:INFO:kis:print_args_info:211] storage_options: None
+[01-12:16:47:15:INFO:kis:_load_datasets:178] ===================================================================
+[01-12:16:47:17:INFO:kis:_load_datasets:187] Type of the returned KisDataSet: <class 'datasets.dataset_dict.IterableDatasetDict'>
+[01-12:16:47:17:INFO:kis:_load_datasets:189] splits in the dataset: dict_keys(['train', 'test'])
+[01-12:16:47:17:INFO:kis:set_split_iterator:95] split 'train' has been set as iterator.
+[01-12:16:47:17:INFO:kis:set_split_iterator:107] Epoch: 10
+[01-12:16:47:17:WARNING:kis:next_sample:137] Reach the end of the iterator.
+[01-12:16:47:17:INFO:kis:next_sample:138] Reset the iterator with split: 'train'
+[01-12:16:47:17:INFO:kis:set_split_iterator:95] split 'train' has been set as iterator.
+[01-12:16:47:17:INFO:kis:set_split_iterator:107] Epoch: 11
+[01-12:16:47:17:INFO:kis:_load_datasets:175] args info used to load dataset:
+[01-12:16:47:17:INFO:kis:_load_datasets:176] *******************************************************************
+[01-12:16:47:17:INFO:kis:print_args_info:192] path: json
+[01-12:16:47:17:INFO:kis:print_args_info:193] name: None
+[01-12:16:47:17:INFO:kis:print_args_info:194] data_dir: ../data/json/
+[01-12:16:47:17:INFO:kis:print_args_info:195] data_files: None
+[01-12:16:47:17:INFO:kis:print_args_info:196] split: train
+[01-12:16:47:17:INFO:kis:print_args_info:197] cache_dir: None
+[01-12:16:47:17:INFO:kis:print_args_info:198] features: None
+[01-12:16:47:17:INFO:kis:print_args_info:199] download_config: None
+[01-12:16:47:17:INFO:kis:print_args_info:200] download_mode: None
+[01-12:16:47:17:INFO:kis:print_args_info:201] verfication_mode: None
+[01-12:16:47:17:INFO:kis:print_args_info:202] ignore_verifications: deprecated
+[01-12:16:47:17:INFO:kis:print_args_info:203] keep_in_memory: None
+[01-12:16:47:17:INFO:kis:print_args_info:204] save_infos: False
+[01-12:16:47:17:INFO:kis:print_args_info:205] revision: None
+[01-12:16:47:17:INFO:kis:print_args_info:206] token: None
+[01-12:16:47:17:INFO:kis:print_args_info:207] use_auth_token: deprecated
+[01-12:16:47:17:INFO:kis:print_args_info:208] task: deprecated
+[01-12:16:47:17:INFO:kis:print_args_info:209] streaming: False
+[01-12:16:47:17:INFO:kis:print_args_info:210] num_proc: None
+[01-12:16:47:17:INFO:kis:print_args_info:211] storage_options: None
+[01-12:16:47:17:INFO:kis:_load_datasets:178] ===================================================================
+[01-12:16:47:18:INFO:kis:_load_datasets:187] Type of the returned KisDataSet: <class 'datasets.arrow_dataset.Dataset'>
+[01-12:16:47:18:INFO:kis:set_split_iterator:92] Set the iterator with split: 'train'
+[01-12:16:47:18:INFO:kis:set_split_iterator:98] The dataset has been set as iterator.
+[01-12:16:47:18:INFO:kis:set_split_iterator:105] Number of rows in the iterator: 15
+[01-12:16:47:18:INFO:kis:set_split_iterator:107] Epoch: 1
+[01-12:16:47:18:WARNING:kis:next_sample:137] Reach the end of the iterator.
+[01-12:16:47:18:INFO:kis:next_sample:138] Reset the iterator with split: 'train'
+[01-12:16:47:18:INFO:kis:set_split_iterator:98] The dataset has been set as iterator.
+[01-12:16:47:18:INFO:kis:set_split_iterator:105] Number of rows in the iterator: 15
+[01-12:16:47:18:INFO:kis:set_split_iterator:107] Epoch: 2
+[01-12:16:47:18:INFO:kis:_load_datasets:175] args info used to load dataset:
+[01-12:16:47:18:INFO:kis:_load_datasets:176] *******************************************************************
+[01-12:16:47:18:INFO:kis:print_args_info:192] path: json
+[01-12:16:47:18:INFO:kis:print_args_info:193] name: None
+[01-12:16:47:18:INFO:kis:print_args_info:194] data_dir: None
+[01-12:16:47:18:INFO:kis:print_args_info:195] data_files: {'train': '../data/json/dataset_1.json', 'test': '../data/json/dataset_2.json'}
+[01-12:16:47:18:INFO:kis:print_args_info:196] split: None
+[01-12:16:47:18:INFO:kis:print_args_info:197] cache_dir: None
+[01-12:16:47:18:INFO:kis:print_args_info:198] features: None
+[01-12:16:47:18:INFO:kis:print_args_info:199] download_config: None
+[01-12:16:47:18:INFO:kis:print_args_info:200] download_mode: None
+[01-12:16:47:18:INFO:kis:print_args_info:201] verfication_mode: None
+[01-12:16:47:18:INFO:kis:print_args_info:202] ignore_verifications: deprecated
+[01-12:16:47:18:INFO:kis:print_args_info:203] keep_in_memory: None
+[01-12:16:47:18:INFO:kis:print_args_info:204] save_infos: False
+[01-12:16:47:18:INFO:kis:print_args_info:205] revision: None
+[01-12:16:47:18:INFO:kis:print_args_info:206] token: None
+[01-12:16:47:18:INFO:kis:print_args_info:207] use_auth_token: deprecated
+[01-12:16:47:18:INFO:kis:print_args_info:208] task: deprecated
+[01-12:16:47:18:INFO:kis:print_args_info:209] streaming: False
+[01-12:16:47:18:INFO:kis:print_args_info:210] num_proc: None
+[01-12:16:47:18:INFO:kis:print_args_info:211] storage_options: None
+[01-12:16:47:18:INFO:kis:_load_datasets:178] ===================================================================
+[01-12:16:47:20:INFO:kis:_load_datasets:187] Type of the returned KisDataSet: <class 'datasets.dataset_dict.DatasetDict'>
+[01-12:16:47:20:INFO:kis:_load_datasets:189] splits in the dataset: dict_keys(['train', 'test'])
+[01-12:16:47:20:INFO:kis:set_split_iterator:92] Set the iterator with split: 'test'
+[01-12:16:47:20:INFO:kis:set_split_iterator:95] split 'test' has been set as iterator.
+[01-12:16:47:20:INFO:kis:set_split_iterator:105] Number of rows in the iterator: 5
+[01-12:16:47:20:INFO:kis:set_split_iterator:107] Epoch: 3
+[01-12:16:47:20:WARNING:kis:next_sample:137] Reach the end of the iterator.
+[01-12:16:47:20:INFO:kis:next_sample:138] Reset the iterator with split: 'test'
+[01-12:16:47:20:INFO:kis:set_split_iterator:95] split 'test' has been set as iterator.
+[01-12:16:47:20:INFO:kis:set_split_iterator:105] Number of rows in the iterator: 5
+[01-12:16:47:20:INFO:kis:set_split_iterator:107] Epoch: 4
+[01-12:16:47:20:WARNING:kis:next_sample:137] Reach the end of the iterator.
+[01-12:16:47:20:INFO:kis:next_sample:138] Reset the iterator with split: 'test'
+[01-12:16:47:20:INFO:kis:set_split_iterator:95] split 'test' has been set as iterator.
+[01-12:16:47:20:INFO:kis:set_split_iterator:105] Number of rows in the iterator: 5
+[01-12:16:47:20:INFO:kis:set_split_iterator:107] Epoch: 5
+[01-12:16:47:20:INFO:kis:set_split_iterator:92] Set the iterator with split: 'train'
+[01-12:16:47:20:INFO:kis:set_split_iterator:95] split 'train' has been set as iterator.
+[01-12:16:47:20:INFO:kis:set_split_iterator:105] Number of rows in the iterator: 10
+[01-12:16:47:20:INFO:kis:set_split_iterator:107] Epoch: 6
+[01-12:16:47:20:WARNING:kis:next_sample:137] Reach the end of the iterator.
+[01-12:16:47:20:INFO:kis:next_sample:138] Reset the iterator with split: 'train'
+[01-12:16:47:20:INFO:kis:set_split_iterator:95] split 'train' has been set as iterator.
+[01-12:16:47:20:INFO:kis:set_split_iterator:105] Number of rows in the iterator: 10
+[01-12:16:47:20:INFO:kis:set_split_iterator:107] Epoch: 7
+[01-12:16:47:20:INFO:kis:set_split_iterator:95] split 'train' has been set as iterator.
+[01-12:16:47:20:INFO:kis:set_split_iterator:105] Number of rows in the iterator: 10
+[01-12:16:47:20:INFO:kis:set_split_iterator:107] Epoch: 8
+[01-12:16:47:20:WARNING:kis:next_sample:137] Reach the end of the iterator.
+[01-12:16:47:20:INFO:kis:next_sample:138] Reset the iterator with split: 'train'
+[01-12:16:47:20:INFO:kis:set_split_iterator:95] split 'train' has been set as iterator.
+[01-12:16:47:20:INFO:kis:set_split_iterator:105] Number of rows in the iterator: 10
+[01-12:16:47:20:INFO:kis:set_split_iterator:107] Epoch: 9
+[01-12:16:47:20:INFO:kis:_load_datasets:175] args info used to load dataset:
+[01-12:16:47:20:INFO:kis:_load_datasets:176] *******************************************************************
+[01-12:16:47:20:INFO:kis:print_args_info:192] path: json
+[01-12:16:47:20:INFO:kis:print_args_info:193] name: None
+[01-12:16:47:20:INFO:kis:print_args_info:194] data_dir: None
+[01-12:16:47:20:INFO:kis:print_args_info:195] data_files: {'train': '../data/json/dataset_1.json', 'test': '../data/json/dataset_2.json'}
+[01-12:16:47:20:INFO:kis:print_args_info:196] split: None
+[01-12:16:47:20:INFO:kis:print_args_info:197] cache_dir: None
+[01-12:16:47:20:INFO:kis:print_args_info:198] features: None
+[01-12:16:47:20:INFO:kis:print_args_info:199] download_config: None
+[01-12:16:47:20:INFO:kis:print_args_info:200] download_mode: None
+[01-12:16:47:20:INFO:kis:print_args_info:201] verfication_mode: None
+[01-12:16:47:20:INFO:kis:print_args_info:202] ignore_verifications: deprecated
+[01-12:16:47:20:INFO:kis:print_args_info:203] keep_in_memory: None
+[01-12:16:47:20:INFO:kis:print_args_info:204] save_infos: False
+[01-12:16:47:20:INFO:kis:print_args_info:205] revision: None
+[01-12:16:47:20:INFO:kis:print_args_info:206] token: None
+[01-12:16:47:20:INFO:kis:print_args_info:207] use_auth_token: deprecated
+[01-12:16:47:20:INFO:kis:print_args_info:208] task: deprecated
+[01-12:16:47:20:INFO:kis:print_args_info:209] streaming: False
+[01-12:16:47:20:INFO:kis:print_args_info:210] num_proc: None
+[01-12:16:47:20:INFO:kis:print_args_info:211] storage_options: None
+[01-12:16:47:20:INFO:kis:_load_datasets:178] ===================================================================
+[01-12:16:47:21:INFO:kis:_load_datasets:187] Type of the returned KisDataSet: <class 'datasets.dataset_dict.DatasetDict'>
+[01-12:16:47:21:INFO:kis:_load_datasets:189] splits in the dataset: dict_keys(['train', 'test'])
+[01-12:16:47:21:INFO:kis:set_split_iterator:95] split 'train' has been set as iterator.
+[01-12:16:47:21:INFO:kis:set_split_iterator:105] Number of rows in the iterator: 10
+[01-12:16:47:21:INFO:kis:set_split_iterator:107] Epoch: 10
