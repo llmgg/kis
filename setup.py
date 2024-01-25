@@ -24,7 +24,7 @@ def get_version():
 
 def get_requirements(filename):
     with open(os.path.join(ROOT, filename)) as f:
-        return [line.rstrip() for line in f]
+        return [line.strip() for line in f]
 
 
 parser = argparse.ArgumentParser(add_help=False)
@@ -36,7 +36,7 @@ args, unparsed_args = parser.parse_known_args()
 sys.argv[1:] = unparsed_args
 
 if args.requirement is None:
-    install_requires = get_requirements("requirements")
+    install_requires = get_requirements("requirements.txt")
 else:
     install_requires = get_requirements(args.requirement)
 

@@ -12,6 +12,5 @@ pip install dist/*.whl
 
 echo "clear the temp files ..."
 
-
 echo "showing the information of kis ... "
 pip show kis
