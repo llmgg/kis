@@ -6,6 +6,7 @@ from typing import (
     Sequence,
     Union,
 )
+
 from datasets import (
     load_dataset,
     Dataset,
@@ -17,9 +18,10 @@ from datasets.download import DownloadConfig, DownloadMode
 from datasets.features import Features
 from datasets.splits import Split
 from datasets.utils import Version, VerificationMode
-from kis.utils.log import kis_logger as logger
 from torch.utils.data import DataLoader
 from tqdm.auto import tqdm
+
+from kis.utils.log import kis_logger as logger
 
 
 class KisDataSet(object):
@@ -229,14 +231,26 @@ class KisDataSet(object):
         logger.info("*******************************************************************")
         self.print_args_info()
         logger.info("===================================================================")
-        self.dataset = load_dataset(
-            path=self.path, name=self.name, data_dir=self.data_dir, data_files=self.data_files, split=self.split,
-            cache_dir=self.cache_dir, features=self.features, download_config=self.download_config,
-            download_mode=self.download_mode, verification_mode=self.verification_mode,
-            ignore_verifications=self.ignore_verifications, keep_in_memory=self.keep_in_memory,
-            save_infos=self.save_infos, revision=self.revision, token=self.token, use_auth_token=self.use_auth_token,
-            task=self.task, streaming=self.streaming, num_proc=self.num_proc, storage_options=self.storage_options
-        )
+        try:
+            self.dataset = load_dataset(
+                path=self.path, name=self.name, data_dir=self.data_dir, data_files=self.data_files, split=self.split,
+                cache_dir=self.cache_dir, features=self.features, download_config=self.download_config,
+                download_mode=self.download_mode, verification_mode=self.verification_mode,
+                ignore_verifications=self.ignore_verifications, keep_in_memory=self.keep_in_memory,
+                save_infos=self.save_infos, revision=self.revision, token=self.token,
+                use_auth_token=self.use_auth_token,
+                task=self.task, streaming=self.streaming, num_proc=self.num_proc, storage_options=self.storage_options
+            )
+        except Exception as e:
+            logger.info(e)
+            self.dataset = load_dataset(
+                path=self.path, name=self.name, data_dir=self.data_dir, data_files=self.data_files, split=self.split,
+                cache_dir=self.cache_dir, features=self.features, download_config=self.download_config,
+                download_mode=self.download_mode, verification_mode=self.verification_mode,
+                ignore_verifications=self.ignore_verifications, keep_in_memory=self.keep_in_memory,
+                save_infos=self.save_infos, revision=self.revision, use_auth_token=self.use_auth_token,
+                task=self.task, streaming=self.streaming, num_proc=self.num_proc, storage_options=self.storage_options
+            )
         if isinstance(self.dataset, Dataset):
             logger.info(f"Transform the Dataset to DatasetDict")
             self.split = "Dataset" if self.split is None else self.split
