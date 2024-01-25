@@ -1,4 +1,4 @@
-from kis.reader.data_set import DataSet
+from kis.reader.data_set import KisDataSet
 
 
 def data_set_test():
@@ -7,7 +7,7 @@ def data_set_test():
     test_file = data_dir + "dataset_2.json"
 
     for streaming_value in (True, False):
-        ds_from_local = DataSet()
+        ds_from_local = KisDataSet()
         ds_from_local.streaming = streaming_value
 
         ds_from_local.split = "train"
@@ -15,33 +15,31 @@ def data_set_test():
         print("dataset from directory:")
         print(ds_from_local.dataset)
         for _ in range(20):
-            sample = ds_from_local.next_sample()
+            sample = ds_from_local._next_sample()
             print(_, sample)
         ds_from_local.split = None
 
         ds_from_local.load_local_json_files(data_files={"train": train_file, "test": test_file})
         print("dataset from files:")
         print(ds_from_local.dataset)
-        ds_from_local.set_split_iterator("test")
+        ds_from_local._set_split_iterator("test")
         for _ in range(15):
-            sample = ds_from_local.next_sample()
+            sample = ds_from_local._next_sample()
             print(_, sample)
-        ds_from_local.set_split_iterator("train")
+        ds_from_local._set_split_iterator("train")
         for _ in range(15):
-            sample = ds_from_local.next_sample()
+            sample = ds_from_local._next_sample()
             print(_, sample)
 
-        ds_from_local.set_split_iterator("train")
-        for _ in ds_from_local.split_to_generator(None, batch_num=2):
+        for _ in ds_from_local.split_to_generator("train", batch_num=2):
             print(len(_))
-        for _ in ds_from_local.split_to_generator(None, batch_num=3):
+        for _ in ds_from_local.split_to_generator("train", batch_num=3):
             print(_)
 
         ds_from_local._batch_size = 3
         ds_from_local.load_local_json_files(data_files={"train": train_file, "test": test_file})
-        ds_from_local.set_split_iterator("train")
         batch_num = 0
-        for _ in ds_from_local.split_to_generator(None):
+        for _ in ds_from_local.split_to_generator("train"):
             batch_num += 1
         print(f"Number of batch in split 'train': {batch_num}")
         ds_from_local._batch_size = 4
